@@ -18,8 +18,8 @@ import (
 	"time"
 
 	"github.com/docker/docker/api/types/swarm"
-	"github.com/fsouza/go-dockerclient"
 	"github.com/gorilla/mux"
+	"github.com/justcompile/go-dockerclient"
 )
 
 type swarmServer struct {
